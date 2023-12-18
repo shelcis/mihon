@@ -1,0 +1,173 @@
+body {
+    font-family: "Hiragino Kaku Gothic ProN","メイリオ","sans-serif";
+}
+
+.form_title{
+    width:500px;
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom:20px;
+    border-left:4px solid red;
+    background-color:#f1f1f1;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+    font-size:20px;
+}
+
+form{
+    width:500px;
+    margin:0 auto;
+    padding:24px 0;
+    border:3px solid #ebebeb;
+    border-radius:10px;
+    background-color: #fbfbfb;
+}
+
+.err_message{
+    margin:10px 0 0 0;
+    font-size:11px;
+    color:red;
+}
+
+.item{
+    width:80%;
+    display:flex;
+    flex-direction:column;
+    margin:0 auto;
+    padding:15px;
+}
+
+.text,textarea{
+    padding:5px;
+    border:1px solid #dfdfdf;
+    color:#999;
+    background: #fff;
+}
+
+.submit{
+    padding:4px 10px;
+    border:1px solid lightgray;
+    color: white;
+    background: #bfbfbf;
+    border-radius: 5px;
+    border-bottom:2px solid gray;
+}
+
+/* 全体の書体・フォントサイズ */
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.logoImg{
+    width: 20%;
+    height:20%;
+}
+
+/* ヘッダー メニュー（参考：CSS：Lesson8） */
+header{
+    width:100%;
+    height:40px;
+    background-color:black;
+    color:silver;
+}
+
+/*
+/   display:flex;
+/   ヘッダー
+ */
+header ul,main{
+    display:flex;
+}
+
+header ul li{
+    list-style:none;
+    line-height:40px;
+    padding-left:50px;
+    padding-right:50px;
+    font-size:18px;
+}
+
+/*
+/   display:flex;
+/   justify-content:space-around;
+/   （水平方向：余白を等間隔に）
+/   メニューリスト
+ */
+main{
+    display:flex;
+    justify-content:space-around;
+}
+
+/* main 左（left） */
+.left{
+    width:70%;
+}
+
+h1{
+    padding-left:5px;
+    border-bottom:1px solid;
+    border-left:5px solid;
+}
+
+.left img{
+    width: 100%;
+}
+
+.gray_box{
+    /* 
+    /   ８画像　→　折り返し設定
+    /    display:flex;
+    /    justify-content:space-around;
+    /   （水平方向：余白を等間隔に）
+    /    flex-wrap:wrap;
+    /    （子要素の折り返し：順表示し、幅に合わせて折り返し）
+     */
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    background-color:gray;
+    padding:10px 10px;
+}
+
+.img_caption{
+    width:22%;
+    margin-bottom:10px;
+}
+
+.img_caption img{
+    width:100%;
+}
+
+.img_caption p{
+    font-size:small;
+    text-align:center;
+    margin:1px 0px 0px 0px;
+}
+
+/* main 右（right） */
+.right{
+    width:25%;
+}
+
+h3{
+    margin-top:40px;
+    border-bottom:2px dotted;
+}
+
+.right ul li{
+    margin-top:10px;
+    list-style:none;
+    margin-left:-20px;
+}
+
+/* フッター（参考：CSS：Lesson8） */
+footer{
+    width:100%;
+    height:40px;
+    background-color:black;
+    color:silver;
+    text-align:center;
+    line-height:40px;
+    font-size:18px;
+}
